@@ -1,0 +1,21 @@
+.menu {
+	width: 100%;
+	display: table;
+}
+.menu ul {
+	display: table-row;
+}
+.menu li {
+	display: table-cell;
+	background: #00000000;
+}
+.menu ul li:hover, .menu a:hover {
+	background: #66666600;
+}
+.menu li a {
+	display: block;
+	padding: 8px 15px;
+	color: #000000;
+	text-align: center;
+}
+
